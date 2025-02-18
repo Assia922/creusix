@@ -1,0 +1,53 @@
+/* 🎬 FOND NOIR PARTOUT */
+body, .stApp {
+    background-color: #141414;  /* Noir Netflix */
+    color: white;  /* Texte en blanc */
+}
+
+/* 🏠 BARRE LATÉRALE (NOIR AVEC UNE SÉPARATION GRISE) */
+.stSidebar {
+    background-color: #000 !important;  /* Noir profond */
+    border-right: 2px solid #444;  /* Ligne de séparation grise */
+}
+
+/* 📌 TITRES IMPORTANTS EN ROUGE */
+h1, h2 {
+    color: #E50914;  /* Rouge Netflix */
+    font-weight: bold;
+}
+
+/* 🔍 TITRES MINEURS ET TEXTES EN BLANC */
+h3, h4, h5, h6, p, .stText {
+    color: white !important;
+}
+
+/* 🛠️ BOUTONS */
+.stButton > button {
+    background-color: #E50914;  /* Rouge Netflix */
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.stButton > button:hover {
+    background-color: #ff0a16;  /* Rouge plus clair au survol */
+}
+
+/* 🔍 BOÎTE DE RECHERCHE */
+.stSelectbox {
+    background-color: #222 !important;  /* Fond sombre */
+    color: white !important;
+    border-radius: 5px;
+    border: 1px solid #444;  /* Bordure grise */
+}
+
+/* 🖼️ IMAGES DES FILMS */
+img {
+    border-radius: 10px;
+    border: 2px solid #222;  /* Bordure légère pour harmoniser */
+}
+
+/* 🏠 MENU DE NAVIGATION */
+.st-bd {
+    background-color: #000 !important;  /* Noir profond */
+}
